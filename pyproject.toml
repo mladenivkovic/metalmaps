@@ -1,29 +1,33 @@
-
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["metalmaps"]
 
 [project]
 name = "metalmaps"
 description="Metal and rock inspired Matplotlib colormaps."
 readme = "README.md"
+version = "0.2.0"
 authors= [
     { name = "Mladen Ivkovic", email="mladen.ivkovic@hotmail.com}"},
-    { name = "Josh Borrow", email="" }
+    { name = "Josh Borrow" }
     ]
 license = { file = "LICENSE.txt" }
 classifiers=[
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
-    "Operating System :: OS Independent",
-],
+    "Operating System :: OS Independent"
+]
 keywords = [ "metal", "rock", "colormap", "matplotlib" ]
 dependencies=[ "matplotlib" ]
 
 
 [project.urls]
-Homepage = "https://github.com/mivkov/metalmaps"
+"Homepage" = "https://github.com/mivkov/metalmaps"
+"Gallery" = "https://mladenivkovic.github.io/metalmaps/metalmaps.html"
 
 [tool.bumpver]
 current_version = "0.2.0"
@@ -36,9 +40,9 @@ push = true
 [tool.bumpver.file_patterns]
 "pyproject.toml" = [
     'current_version = "{version}"',
+    'version = "{version}"',
 ]
-
 "metalmaps/__version__.py" = [
-    "{version}"
+    '__version__ = "{version}"'
 ]
 
