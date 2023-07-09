@@ -73,8 +73,8 @@ This package currently includes over 20 examples, and counting:
 +   Ride the Lightning (Metallica)
 +   The Rise and Fall of Ziggy Stardust and the Spiders From Mars (David Bowie)
 
-| :exclamation:  **For a full gallery, visit https://mladenivkovic.github.io/metalmaps/metalmaps.html ** |
-|--------------------------------------------------------------------------------------------------------|
+| :exclamation:  For a full gallery, visit https://mladenivkovic.github.io/metalmaps/metalmaps.html  |
+|----------------------------------------------------------------------------------------------------|
 
 Here are some examples:
 
@@ -97,11 +97,11 @@ Here are some examples:
 
 ### obZen (_Meshuggah_)
 
-![](images/obzen.png)
+![](images/obzen.jpg)
 
 ### Paranoid (_Black Sabbath_)
 
-![](images/paranoid.png)
+![](images/paranoid.jpg)
 
 
 
@@ -122,7 +122,7 @@ below.
 
 For quantitative comparisons, please ensure that you use a
 perceptually uniform colour map (see e.g. those available
-directly through [matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html)).
+directly through [matplotlib](https://matplotlib.org/3.7.0/tutorials/colors/colormaps.html)).
 
 
 
@@ -147,4 +147,4 @@ Image Credits
 
 + The "Kelvin-Helmholtz" data used in the plots below were generated using [mesh-hydro](https://github.com/mladenivkovic/mesh-hydro).
 + The "EAGLE" data used in the plots below were obtained from the [swiftsim](https://github.com/SWIFTSIM/SWIFT) repository.
-+ The "NGC" data used in the plots below were originally obtained from [flickr](https://www.flickr.com/photos/geckzilla/52040747525/), credits to [Judy Schmidt](https://www.flickr.com/people/geckzilla/). I modified the image later to normalize the pixel values to be able to demonstrate the colormaps as below.
++ The "NGC" data used in the plots below were originally obtained from [flickr](https://www.flickr.com/photos/geckzilla/52040747525/), credits to [Judy Schmidt](https://www.flickr.com/people/geckzilla/). I modified the image later to normalize the pixel values to be able to demonstrate the colormaps as above.
