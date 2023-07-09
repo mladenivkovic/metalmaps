@@ -25,7 +25,7 @@ dependencies=[ "matplotlib" ]
 
 
 [project.urls]
-"Homepage" = "https://github.com/mivkov/metalmaps"
+"Homepage" = "https://github.com/mladenivkovic/metalmaps"
 "Gallery" = "https://mladenivkovic.github.io/metalmaps/metalmaps.html"
 
 [tool.bumpver]
