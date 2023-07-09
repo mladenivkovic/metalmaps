@@ -3,9 +3,38 @@ Heavy Metal and Classic Rock color map collection.
 
 Includes color maps based on the following albums:
 
-+ Apostasy
-+ TODO 2
-+ TODO 3
++   The Apostasy (Behemoth)
++   Ashes of the Wake (Lamb of God)
++   Black Sabbath (Black Sabbath)
++   The Blues Brothers (The Blues Brothers)
++   Blues Pills (Blues Pills)
++   Cosmo's Factory (Creedence Clearwater Revival)
++   Deep Purple in Rock (Deep Purple)
++   The Dethalbum (Dethklok)
++   Fear of the Dark (Iron Maiden)
++   From Mars to Sirius (Gojira)
++   Hypnotize (System of a Down)
++   In Utero (Nirvana)
++   L.A. Woman (The Doors)
++   L'enfant Sauvage (Gojira)
++   London Calling (The Clash)
++   Master of Puppets (Metallica)
++   Made in Japan (Deep Purple)
++   Meteora (Linkin Park)
++   The Number of the Beast (Iron Maiden)
++   obZen (Meshuggah)
++   Overkill (Motörhead)
++   Painkiller (Judas Priest)
++   Paranoid (Black Sabbath)
++   Powerslave (Iron Maiden)
++   Reign in Blood (Slayer)
++   Ride the Lightning (Metallica)
++   Rock 'n' Roll (Motörhead)
++   Screaming for Vengeance (Judas Priest)
++   South of Heaven (Slayer)
++   The Hunter (Mastodon)
++   The Rise and Fall of Ziggy Stardust and the Spiders From Mars (David Bowie)
+
 
 
 License: LGPLv3
@@ -17,14 +46,13 @@ Usage
 To use these, you can import them and use them
 with matplotlib as you would with any other color map.
 
-TODO: CLEAN THIS UP
 .. code-block:: python
 
-    from metalmaps import red
+    from metalmaps import black_sabbath
     from matplotlib.pyplot import imshow
     from numpy import random
 
-    imshow(random.rand(128, 128), cmap=red)
+    imshow(random.rand(128, 128), cmap=black_sabbath)
 
 """
 

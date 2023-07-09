@@ -53,25 +53,41 @@ imshow(random.rand(128, 128), cmap="metalmaps.red")
 Examples
 --------
 
-This package currently includes over 20 examples, and counting: 
+This package currently includes 30 colormaps: 
+
 
 +   The Apostasy (Behemoth)
++   Ashes of the Wake (Lamb of God)
 +   Black Sabbath (Black Sabbath)
 +   The Blues Brothers (The Blues Brothers)
 +   Blues Pills (Blues Pills)
 +   Cosmo's Factory (Creedence Clearwater Revival)
 +   Deep Purple in Rock (Deep Purple)
 +   The Dethalbum (Dethklok)
++   Fear of the Dark (Iron Maiden)
 +   From Mars to Sirius (Gojira)
++   Hypnotize (System of a Down)
++   In Utero (Nirvana)
 +   L.A. Woman (The Doors)
++   L'enfant Sauvage (Gojira)
 +   London Calling (The Clash)
 +   Master of Puppets (Metallica)
 +   Made in Japan (Deep Purple)
 +   Meteora (Linkin Park)
++   The Number of the Beast (Iron Maiden)
 +   obZen (Meshuggah)
++   Overkill (Motörhead)
++   Painkiller (Judas Priest)
 +   Paranoid (Black Sabbath)
++   Powerslave (Iron Maiden)
++   Reign in Blood (Slayer)
 +   Ride the Lightning (Metallica)
++   Rock 'n' Roll (Motörhead)
++   Screaming for Vengeance (Judas Priest)
++   South of Heaven (Slayer)
++   The Hunter (Mastodon)
 +   The Rise and Fall of Ziggy Stardust and the Spiders From Mars (David Bowie)
+
 
 | :exclamation:  For a full gallery, visit https://mladenivkovic.github.io/metalmaps/metalmaps.html  |
 |----------------------------------------------------------------------------------------------------|
@@ -148,6 +164,7 @@ Intstructions:
 
 + generate your color palette any way you please, and add it to `colors.py`
 + instantiate the matplotlib colormap in `__init__.py`
++ add your addition to the album lists in `README.md` and `__init__.py`
 + submit your merge request
 + ???
 + profit!
