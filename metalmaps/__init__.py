@@ -50,7 +50,10 @@ fear_of_the_dark, fear_of_the_dark_r = make_custom_cmap("fear_of_the_dark", colo
 from_mars_to_sirius, from_mars_to_sirius_r = make_custom_cmap(
     "from_mars_to_sirius", colors.from_mars_to_sirius
 )
+hypnotize, hypnotize_r = make_custom_cmap("hypnotize", colors.hypnotize)
+in_utero, in_utero_r = make_custom_cmap("in_utero", colors.in_utero)
 la_woman, la_woman_r = make_custom_cmap("la_woman", colors.la_woman)
+lenfant_sauvage, lenfant_sauvage_r = make_custom_cmap("lenfant_sauvage", colors.lenfant_sauvage)
 london_calling, london_calling_r = make_custom_cmap(
     "london_calling", colors.london_calling
 )
@@ -71,6 +74,7 @@ ride_the_lightning, ride_the_lightning = make_custom_cmap(
 )
 rock_n_roll, rock_n_roll_r = make_custom_cmap("rock_n_roll", colors.rock_n_roll)
 screaming_for_vengeance, screaming_for_vengeance_r = make_custom_cmap("screaming_for_vengeance", colors.screaming_for_vengeance)
+south_of_heaven, south_of_heaven_r = make_custom_cmap("south_of_heaven", colors.south_of_heaven)
 the_hunter, the_hunter_r = make_custom_cmap("the_hunter", colors.the_hunter)
 ziggy_stardust, ziggy_stardust_r = make_custom_cmap(
     "ziggy_stardust", colors.ziggy_stardust

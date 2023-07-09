@@ -117,9 +117,21 @@ from_mars_to_sirius = hex_to_rgb(
     ]
 )
 
+hypnotize = hex_to_rgb(
+["1D2328","252E33","372930","48292E","7B1815","986013","C9A980","D2C4C3","3C5099","283A82"]
+        )
+
+in_utero = hex_to_rgb(
+["E1DFAF","E9E4B3","F2E7B4","EDE7C7","F6F1D3","955E49","925C62","A6BA93","636243","A28B5D"]
+        )
+
 la_woman = hex_to_rgb(
     ["#76202B", "#81232B", "#89232E", "#3F2D16", "BDA32C", "FFFE44", "FFF3BE"]
 )
+
+lenfant_sauvage = hex_to_rgb(
+["000000","000000","26130C","321C0E","502300","732D02","A44905","BC4E00","F4F3F1","26180C","000000"]
+        )
 
 london_calling = hex_to_rgb(
     ["#130b0a", "#2e2724", "#1b9045", "c8c0b0", "#989989", "#6b625a", "d86a7d"]
@@ -228,6 +240,10 @@ rock_n_roll = hex_to_rgb(
 
 screaming_for_vengeance = hex_to_rgb(
 ["B28326","CEAD4B","D6BE52","D3794E","CA554C","B09C9D","61929F","7D7E84","444346"]
+        )
+
+south_of_heaven = hex_to_rgb(
+["1B191A","271713","3C1E1E","6A2528","A5312B","424246","B4BABC","D7D7D5","F4F4EF","2E304A"]
         )
 
 the_hunter = hex_to_rgb(
