@@ -17,6 +17,10 @@ apostasy = hex_to_rgb(
     ]
 )
 
+ashes_of_the_wake = hex_to_rgb(
+        ["0B372A","1A5447","017F5C","B08341","C18138","010207","000000","3E0101","741F26","850713"]
+        )
+
 black_sabbath = hex_to_rgb(
     [
         "#22120A",
@@ -96,6 +100,10 @@ dethalbum = hex_to_rgb(
     ]
 )
 
+fear_of_the_dark = hex_to_rgb(
+["000102","21222A","2F3754","254884","0F7098","009AC8","DCE2BF","F6E9C6","6D735E","645C42"]
+        )
+
 from_mars_to_sirius = hex_to_rgb(
     [
         "E9E3D4",
@@ -150,6 +158,10 @@ meteora = hex_to_rgb(
     ["#151714", "#25231B", "#5A5945", "#958769", "#86795C", "#856F58", "E8E7D5"]
 )
 
+number_of_the_beast = hex_to_rgb(
+["12090a","323a47","33386a","475383","506c8e","9382af","b3b1c6","dcdde3","e1bf30","e13421"]
+        )
+
 obzen = hex_to_rgb(
     [
         "#0A0908",
@@ -165,6 +177,16 @@ obzen = hex_to_rgb(
     ]
 )
 
+overkill = hex_to_rgb(
+#  ["0F0F0F","1F1B1F","3D3B49","3C7484","278464","54BB67","AEC96A","B74641","F0F0F0","EBE477"]
+#  ["0F0F0F","3D3B49","3C7484","278464","54BB67","C3E6EB","F0F0F0","F4F5B2","B74641","EBE477"]
+["0F0F0F","3D3B49","3C7484","278464","54BB67","B74641","C3E6EB","F0F0F0","F4F5B2","EBE477"]
+        )
+
+painkiller = hex_to_rgb(
+["51337F","5B4984","876891","603D7F","998889","DCD2CA","DBDCCE","CF8C52","CD3E38","63221B"]
+        )
+
 paranoid = hex_to_rgb(
     [
         "#120F0E",
@@ -177,6 +199,10 @@ paranoid = hex_to_rgb(
         "#5977BD",
     ]
 )
+
+powerslave = hex_to_rgb(
+["4760A5","7979A8","FAF1D3","F7E799","F5C588","E09852","F59C47","9B8C5E","A96546","DBC3BD"]
+        )
 
 ride_the_lightning = hex_to_rgb(
     [
@@ -192,6 +218,22 @@ ride_the_lightning = hex_to_rgb(
     ]
 )
 
+reign_in_blood = hex_to_rgb(
+["1C1D17","222115","2D271B","503D24","56583F","776B4E","856B38","BB942E","943423","BC3823"]
+        )
+
+rock_n_roll = hex_to_rgb(
+["20202A","25252F","2F2E40","353444","3D4260","4E5B90","8B98CF","AFB7DC","BD4437","F5D486"]
+        )
+
+screaming_for_vengeance = hex_to_rgb(
+["B28326","CEAD4B","D6BE52","D3794E","CA554C","B09C9D","61929F","7D7E84","444346"]
+        )
+
+the_hunter = hex_to_rgb(
+["000003","190000","6E0E05","D51A11","F4E2B5","F1CA7D","EDBE71","A0734A","69B67C"]
+        )
+
 ziggy_stardust = hex_to_rgb(
     [
         "#08071B",
@@ -206,3 +248,5 @@ ziggy_stardust = hex_to_rgb(
         "#515D87",
     ]
 )
+
+
