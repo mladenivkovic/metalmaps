@@ -55,7 +55,6 @@ blues_pills = hex_to_rgb(
 )
 
 cosmos_factory = hex_to_rgb(
-    #  ["750712","B21F2B","D22841","7693B5","3763AF","DAF9FA","C3C3C7","9A3919","2F2C32","EFA517"]
     [
         "750712",
         "B21F2B",
@@ -104,6 +103,7 @@ from_mars_to_sirius = hex_to_rgb(
 la_woman = hex_to_rgb(
     ["76202B", "81232B", "89232E", "3F2D16", "BDA32C", "FFFE44", "FFF3BE"]
 )
+
 london_calling = hex_to_rgb(
     ["130b0a", "2e2724", "1b9045", "c8c0b0", "989989", "6b625a", "d86a7d"]
 )
