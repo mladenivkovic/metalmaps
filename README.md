@@ -99,10 +99,22 @@ Here are some examples:
 
 ![](images/obzen.jpg)
 
+### Overkill (_Motörhead_)
+
+![](images/overkill.jpg)
+
+### Painkiller (_Judas Priest_)
+
+![](images/painkiller.jpg)
+
 ### Paranoid (_Black Sabbath_)
 
 ![](images/paranoid.jpg)
 
+
+### The Hunter (_Mastodon_)
+
+![](images/the_hunter.jpg)
 
 
 

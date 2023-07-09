@@ -20,7 +20,10 @@ cmaps["metalmaps"] = [
     "metalmaps.from_mars_to_sirius",
     "metalmaps.master_of_puppets",
     "metalmaps.obzen",
+    "metalmaps.overkill",
+    "metalmaps.painkiller",
     "metalmaps.paranoid",
+    "metalmaps.the_hunter",
 ]
 
 mpl.rcParams.update({"font.size": 12})
@@ -29,7 +32,7 @@ mpl.rcParams.update({"font.size": 12})
 #  _DSUBS = {'Perceptually Uniform Sequential': 5, 'Sequential': 6,
 #            'Sequential (2)': 6, 'Diverging': 6, 'Cyclic': 3,
 #            'Qualitative': 4, 'Miscellaneous': 6}
-_DSUBS = {"metalmaps": 6}
+_DSUBS = {"metalmaps": 9}
 
 # Spacing between the colormaps of a subplot
 #  _DC = {'Perceptually Uniform Sequential': 1.4, 'Sequential': 0.7,
