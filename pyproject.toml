@@ -9,7 +9,7 @@ packages = ["metalmaps"]
 name = "metalmaps"
 description="Metal and rock inspired Matplotlib colormaps."
 readme = "README.md"
-version = "0.3.1"
+version = "0.3.2"
 authors= [
     { name = "Mladen Ivkovic", email="mladen.ivkovic@hotmail.com"},
     ]
@@ -29,7 +29,7 @@ dependencies=[ "matplotlib" ]
 "Gallery" = "https://mladenivkovic.github.io/metalmaps/metalmaps.html"
 
 [tool.bumpver]
-current_version = "0.3.1"
+current_version = "0.3.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
