@@ -5,7 +5,16 @@ Colors (defined as RGB values) for the albums.
 from metalmaps.make_cmap import hex_to_rgb
 
 apostasy = hex_to_rgb(
-    ["#010508", "#051217", "#18313C", "#37505A", "#47636B", "#6B8790", "#859B9E", "#9BB9C4"]
+    [
+        "#010508",
+        "#051217",
+        "#18313C",
+        "#37505A",
+        "#47636B",
+        "#6B8790",
+        "#859B9E",
+        "#9BB9C4",
+    ]
 )
 
 black_sabbath = hex_to_rgb(
