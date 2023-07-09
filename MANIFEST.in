@@ -1,1 +1,2 @@
 include pyproject.toml
+exclude metalmaps/format_hex.sh
