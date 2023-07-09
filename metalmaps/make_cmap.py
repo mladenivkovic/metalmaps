@@ -27,7 +27,15 @@ def hex_to_rgb(colors: List[str]) -> List[List[int]]:
 
     rgb_colors = []
 
+    # clean up formatting without leading '#'
+    cleaned_colors = []
     for color in colors:
+        if color.startswith("#"):
+            cleaned_colors.append(color)
+        else:
+            cleaned_colors.append("#"+color)
+
+    for color in cleaned_colors:
         rgb_colors.append(
             list(int(color[1:][i:i+2], 16) for i in (0, 2, 4))
         )
