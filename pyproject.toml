@@ -12,7 +12,6 @@ readme = "README.md"
 version = "0.3.1"
 authors= [
     { name = "Mladen Ivkovic", email="mladen.ivkovic@hotmail.com"},
-    { name = "Josh Borrow" }
     ]
 license = { file = "LICENSE.txt" }
 classifiers=[
