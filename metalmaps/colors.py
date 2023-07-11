@@ -190,7 +190,7 @@ lenfant_sauvage = hex_to_rgb(
 )
 
 london_calling = hex_to_rgb(
-    ["#130b0a", "#2e2724", "#1b9045", "c8c0b0", "#989989", "#6b625a", "d86a7d"]
+    ["#130b0a", "#2e2724", "#1b9045", "#c8c0b0", "#989989", "#6b625a", "#d86a7d"]
 )
 
 master_of_puppets = hex_to_rgb(
@@ -234,10 +234,10 @@ number_of_the_beast = hex_to_rgb(
         "#475383",
         "#506c8e",
         "#9382af",
-        "b3b1c6",
-        "dcdde3",
-        "e1bf30",
-        "e13421",
+        "#b3b1c6",
+        "#dcdde3",
+        "#e1bf30",
+        "#e13421",
     ]
 )
 
