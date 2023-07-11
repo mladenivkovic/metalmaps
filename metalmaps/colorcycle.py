@@ -3,8 +3,8 @@ Stuff related to setting up the color cycle.
 """
 
 from matplotlib.colors import LinearSegmentedColormap, to_hex
-from matplotlib import rc
-from typing import List
+from matplotlib import rc, colormaps
+from typing import List, Union
 from cycler import cycler
 
 from numpy import ndarray, linspace, array, zeros, argsort, sqrt, dot
@@ -36,7 +36,27 @@ def _scrabmle(arr: ndarray) -> ndarray:
     return copy
 
 
-def get_colorlist_from_colormap(cmap: LinearSegmentedColormap) -> List[str]:
+def _get_cmap_from_namestring(name: Union[str, LinearSegmentedColormap]) -> LinearSegmentedColormap:
+    """
+    Get the LinearSegmentedColormap colormap from the `name` string.
+    If `name` is a LinearSegmentedColormap already, just return that.
+    """
+
+    if isinstance(name, str):
+        if name.startswith("metalmaps."):
+            cmap_use = colormaps[name]
+        else:
+            cmap_use = colormaps["metalmaps." + name]
+        return cmap_use
+    elif isinstance(name, LinearSegmentedColormap):
+        return name
+    else:
+        raise TypeError("cmap you provided is invalid data type", type(cmap), "needs to be string or LinearSegmentedColormap")
+
+
+
+
+def get_colorlist_from_colormap(cmap: Union[str, LinearSegmentedColormap]) -> List[str]:
     """
     Generate a list of 10 colors based on the provided colormap. This function
     will attempt to re-order the colors in the list in order to improve visibility
@@ -44,7 +64,7 @@ def get_colorlist_from_colormap(cmap: LinearSegmentedColormap) -> List[str]:
 
     Parameters
     ---------
-    cmap: LinearSegmentedColormap
+    cmap: str or LinearSegmentedColormap
         Colormap to work with.
 
     Returns
@@ -53,8 +73,7 @@ def get_colorlist_from_colormap(cmap: LinearSegmentedColormap) -> List[str]:
         A list of colors in hex format based on the colormap.
     """
 
-    if not isinstance(cmap, LinearSegmentedColormap):
-        raise ValueError("cmap you provided is invalid data type")
+    cmap = _get_cmap_from_namestring(cmap)
 
     cols = [cmap.__call__(x) for x in linspace(0.0, 1.0, 10, endpoint=True)]
     cols = array(cols)
@@ -84,10 +103,14 @@ def get_colorlist_from_colormap(cmap: LinearSegmentedColormap) -> List[str]:
 
     colorlist = [to_hex(rgb) for rgb in cols]
 
+    if cmap.name.endswith("_r"):
+        # revert order for reverse colormaps
+        colorlist = colorlist[::-1]
+
     return colorlist
 
 
-def set_color_cycle(cmap: LinearSegmentedColormap) -> None:
+def set_color_cycle(cmap: Union[str, LinearSegmentedColormap]) -> None:
     """
     Generate color cycler colors from the colormap, and
     make matplotlib use it.
@@ -101,12 +124,13 @@ def set_color_cycle(cmap: LinearSegmentedColormap) -> None:
     Parameters
     ----------
 
-    cmap: LinearSegmentedColormap
+    cmap: str or LinearSegmentedColormap
         color map to use.
 
     """
 
-    colorlist = get_colorlist_from_colormap(cmap)
+    cmap_use = _get_cmap_from_namestring(cmap)
+    colorlist = get_colorlist_from_colormap(cmap_use)
     rc("axes", prop_cycle=(cycler("color", colorlist)))
 
     return
