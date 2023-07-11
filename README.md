@@ -1,7 +1,12 @@
-## Metalmaps - Heavy Metal and Classic Rock Album Art Inspired Matplotlib Colormaps
+Metalmaps - Heavy Metal and Classic Rock Album Art Inspired Matplotlib Colormaps
+----------------------------------------------------------------------------------
 
 Ever wanted to make your python plots more metal? Fear not, now you can! `metalmaps`
 delivers heavy metal and classic rock album art inspired `matplotlib` colormaps!
+
+Visit the [gallery](https://mladenivkovic.github.io/metalmaps/metalmaps.html) for a
+comprehensive picture.
+
 
 
 Contents
@@ -28,7 +33,7 @@ Alternatively, grab the source from [github](https://github.com/mladenivkovic/me
 
 
 Usage
------
+-------
 
 To use these, you can import them and use them
 with matplotlib as you would with any other color map.
@@ -176,13 +181,23 @@ Intstructions:
 Authors, License, Credits
 ---------------------------
 
+### Credits
+
 All of this was inspired by (and shamelessly copied from) Josh Borrow's 
 [swiftascmaps](https://github.com/jborrow/swiftascmaps).
 
-License: LGPLv3
-
-Authors: Mladen Ivkovic, Josh Borrow
+Image credits:
 
 + The "Kelvin-Helmholtz" data used in the plots below were generated using [mesh-hydro](https://github.com/mladenivkovic/mesh-hydro).
 + The "EAGLE" data used in the plots below were obtained from the [swiftsim](https://github.com/SWIFTSIM/SWIFT) repository.
 + The "NGC" data used in the plots below were originally obtained from [flickr](https://www.flickr.com/photos/geckzilla/52040747525/), credits to [Judy Schmidt](https://www.flickr.com/people/geckzilla/). I modified the image later to normalize the pixel values to be able to demonstrate the colormaps as above.
+
+
+### License
+
+License: LGPLv3
+
+
+### Authors and Contributors
+Mladen Ivkovic, Josh Borrow
+
