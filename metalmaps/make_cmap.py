@@ -4,7 +4,7 @@ of colors.
 """
 
 from matplotlib.cm import register_cmap
-from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.colors import LinearSegmentedColormap, to_rgb
 from typing import List, Tuple
 
 
@@ -27,16 +27,13 @@ def hex_to_rgb(colors: List[str]) -> List[List[int]]:
 
     rgb_colors = []
 
-    # clean up formatting without leading '#'
-    cleaned_colors = []
     for color in colors:
-        if color.startswith("#"):
-            cleaned_colors.append(color)
-        else:
-            cleaned_colors.append("#" + color)
+        # clean up formatting without leading '#'
+        if not color.startswith("#"):
+            color = "#" + color
 
-    for color in cleaned_colors:
-        rgb_colors.append(list(int(color[1:][i : i + 2], 16) for i in (0, 2, 4)))
+        #  rgb_colors.append(list(int(color[1:][i : i + 2], 16) for i in (0, 2, 4)))
+        rgb_colors.append([int(rgb * 256) for rgb in to_rgb(color)])
 
     return rgb_colors
 
