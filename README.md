@@ -3,14 +3,16 @@
 Ever wanted to make your python plots more metal? Fear not, now you can! `metalmaps`
 delivers heavy metal and classic rock album art inspired `matplotlib` colormaps!
 
-All of this was inspired by (and shamelessly copied from) Josh Borrow's 
-[swiftascmaps](https://github.com/jborrow/swiftascmaps).
 
-License: LGPLv3
+Contents
+------------------
 
-Authors: Mladen Ivkovic, Josh Borrow
-
-
++ [Installation](#installation)
++ [Usage](#usage)
++ [Examples](#examples)
++ [Note](#note)
++ [Contributing](#contributing)
++ [Authors, License, Credits](#authors-license-credits)
 
 
 Installation
@@ -171,8 +173,15 @@ Intstructions:
 
 
 
-Image Credits
--------------
+Authors, License, Credits
+---------------------------
+
+All of this was inspired by (and shamelessly copied from) Josh Borrow's 
+[swiftascmaps](https://github.com/jborrow/swiftascmaps).
+
+License: LGPLv3
+
+Authors: Mladen Ivkovic, Josh Borrow
 
 + The "Kelvin-Helmholtz" data used in the plots below were generated using [mesh-hydro](https://github.com/mladenivkovic/mesh-hydro).
 + The "EAGLE" data used in the plots below were obtained from the [swiftsim](https://github.com/SWIFTSIM/SWIFT) repository.
