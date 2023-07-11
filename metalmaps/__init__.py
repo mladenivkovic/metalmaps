@@ -58,6 +58,7 @@ with matplotlib as you would with any other color map.
 
 import metalmaps.colors as colors
 from metalmaps.make_cmap import make_custom_cmap
+from metalmaps.colorcycle import set_color_cycle
 from metalmaps.__version__ import __version__
 
 apostasy, apostasy_r = make_custom_cmap("apostasy", colors.apostasy)

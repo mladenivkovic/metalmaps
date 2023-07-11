@@ -21,7 +21,7 @@ classifiers=[
     "Operating System :: OS Independent"
 ]
 keywords = [ "metal", "rock", "colormap", "matplotlib" ]
-dependencies=[ "matplotlib" ]
+dependencies=[ "matplotlib", "cycler" ]
 
 
 [project.urls]
