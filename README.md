@@ -56,6 +56,56 @@ imshow(random.rand(128, 128), cmap="metalmaps.red")
 ```
 
 
+### Using a colormap as default line colors in plots
+
+It's possible to replace the default matplotlib color cycle with one
+provided by this package. To achieve this, call the provided
+`metalmaps.set_color_cycle()` function, and pass the colormap you 
+want as the argument, e.g:
+
+```python
+import metalmaps
+metalmaps.set_color_cycle(metalmaps.reign_in_blood)
+```
+
+For example, this code
+
+```python
+from matplotlib import pyplot as plt
+import numpy as np
+
+import metalmaps
+metalmaps.set_color_cycle(metalmaps.reign_in_blood)
+
+x = np.linspace(0, 1.4, 200)
+def y(x, phi):
+    return np.sin(1.2 * np.pi * (x + 0.25) - 0.1 * phi)
+
+plt.figure()
+
+for i in range(10):
+    labelname = label="C"+str(i)
+    plt.plot(x, y(x, i), linewidth=5, label=labelname)
+
+plt.legend(ncols=2)
+plt.tight_layout()
+plt.savefig("my_figure.png")
+
+```
+
+results in the following figure:
+
+![](images/lineplot.png)
+
+where we didn't have to specify the different colors each time we
+called ``plot()``.
+
+
+
+
+
+
+
 
 Examples
 --------
