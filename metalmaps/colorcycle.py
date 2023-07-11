@@ -36,7 +36,9 @@ def _scrabmle(arr: ndarray) -> ndarray:
     return copy
 
 
-def _get_cmap_from_namestring(name: Union[str, LinearSegmentedColormap]) -> LinearSegmentedColormap:
+def _get_cmap_from_namestring(
+    name: Union[str, LinearSegmentedColormap]
+) -> LinearSegmentedColormap:
     """
     Get the LinearSegmentedColormap colormap from the `name` string.
     If `name` is a LinearSegmentedColormap already, just return that.
@@ -51,9 +53,11 @@ def _get_cmap_from_namestring(name: Union[str, LinearSegmentedColormap]) -> Line
     elif isinstance(name, LinearSegmentedColormap):
         return name
     else:
-        raise TypeError("cmap you provided is invalid data type", type(cmap), "needs to be string or LinearSegmentedColormap")
-
-
+        raise TypeError(
+            "cmap you provided is invalid data type",
+            type(cmap),
+            "needs to be string or LinearSegmentedColormap",
+        )
 
 
 def get_colorlist_from_colormap(cmap: Union[str, LinearSegmentedColormap]) -> List[str]:
