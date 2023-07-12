@@ -148,7 +148,7 @@ def make_EAGLE_plot(cmap):
     Make a plot using the EAGLE data.
     """
 
-    srcfile = os.path.join("data","mass_plots_eagle25.hdf5")
+    srcfile = os.path.join("data", "mass_plots_eagle25.hdf5")
 
     hfile = h5py.File(srcfile, "r")
 
