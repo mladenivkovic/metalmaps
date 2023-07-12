@@ -148,7 +148,7 @@ def make_EAGLE_plot(cmap):
     Make a plot using the EAGLE data.
     """
 
-    srcfile = "mass_plots_eagle25.hdf5"
+    srcfile = os.path.join("data","mass_plots_eagle25.hdf5")
 
     hfile = h5py.File(srcfile, "r")
 
@@ -189,7 +189,7 @@ def make_KH_plot(cmap):
     Make a plot using the Kelvin-Helmholtz data.
     """
 
-    srcfile = "kelvin-helmholtz.hdf5"
+    srcfile = os.path.join("data", "kelvin-helmholtz.hdf5")
 
     hfile = h5py.File(srcfile, "r")
     data = hfile["data"]
@@ -225,7 +225,7 @@ def make_NGC_plot(cmap):
     Make a plot using the NGC image.
     """
 
-    srcfile = "NGC7496.hdf5"
+    srcfile = os.path.join("data", "NGC7496.hdf5")
 
     hfile = h5py.File(srcfile, "r")
 
