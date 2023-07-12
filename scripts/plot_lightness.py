@@ -13,6 +13,8 @@ import numpy as np
 
 import metalmaps
 
+
+# !!! Select colormaps to plot.
 cmaps = {}
 cmaps["metalmaps"] = [
     "metalmaps.black_sabbath",
@@ -32,6 +34,8 @@ mpl.rcParams.update({"font.size": 12})
 #  _DSUBS = {'Perceptually Uniform Sequential': 5, 'Sequential': 6,
 #            'Sequential (2)': 6, 'Diverging': 6, 'Cyclic': 3,
 #            'Qualitative': 4, 'Miscellaneous': 6}
+
+# !!! Note how many colormaps we are plotting.
 _DSUBS = {"metalmaps": 9}
 
 # Spacing between the colormaps of a subplot
