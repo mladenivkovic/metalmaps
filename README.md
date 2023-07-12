@@ -84,7 +84,7 @@ def y(x, phi):
 plt.figure()
 
 for i in range(10):
-    labelname = label="C"+str(i)
+    labelname = "C"+str(i)
     plt.plot(x, y(x, i), linewidth=5, label=labelname)
 
 plt.legend(ncols=2)
