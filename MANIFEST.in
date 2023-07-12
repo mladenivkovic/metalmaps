@@ -1,2 +1,6 @@
 include pyproject.toml
 exclude metalmaps/format_hex.sh
+exclude scripts/generate_plots.py
+exclude scripts/kelvin-helmholtz.hdf5  
+exclude scripts/mass_plots_eagle25.hdf5  
+exclude scripts/NGC7496.hdf5
