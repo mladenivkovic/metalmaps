@@ -14,6 +14,7 @@ Includes color maps based on the following albums:
 +   The Dethalbum (Dethklok)
 +   Fear of the Dark (Iron Maiden)
 +   From Mars to Sirius (Gojira)
++   Hybrid Theory (Linkin Park)
 +   Hypnotize (System of a Down)
 +   In Utero (Nirvana)
 +   L.A. Woman (The Doors)
@@ -86,6 +87,7 @@ fear_of_the_dark, fear_of_the_dark_r = make_custom_cmap(
 from_mars_to_sirius, from_mars_to_sirius_r = make_custom_cmap(
     "from_mars_to_sirius", colors.from_mars_to_sirius
 )
+hybrid_theory, hybrid_theory_r = make_custom_cmap("hybrid_theory", colors.hybrid_theory)
 hypnotize, hypnotize_r = make_custom_cmap("hypnotize", colors.hypnotize)
 in_utero, in_utero_r = make_custom_cmap("in_utero", colors.in_utero)
 la_woman, la_woman_r = make_custom_cmap("la_woman", colors.la_woman)

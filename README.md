@@ -124,6 +124,7 @@ This package currently includes 30 colormaps:
 +   The Dethalbum (Dethklok)
 +   Fear of the Dark (Iron Maiden)
 +   From Mars to Sirius (Gojira)
++   Hybrid Theory (Linkin Park)
 +   Hypnotize (System of a Down)
 +   In Utero (Nirvana)
 +   L.A. Woman (The Doors)

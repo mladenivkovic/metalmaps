@@ -143,6 +143,10 @@ from_mars_to_sirius = hex_to_rgb(
     ]
 )
 
+hybrid_theory = hex_to_rgb(
+["4A474E","4F4D56","5E4D54","805A61","87565F","8F8E92","9E999E","AAA3A8","CAC4C7","DFDFE4"]
+        )
+
 hypnotize = hex_to_rgb(
     [
         "#1D2328",
