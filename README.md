@@ -137,6 +137,7 @@ This package currently includes 30 colormaps:
 +   Painkiller (Judas Priest)
 +   Paranoid (Black Sabbath)
 +   Powerslave (Iron Maiden)
++   Rage Against The Machine (Rage Against The Machine)
 +   Reign in Blood (Slayer)
 +   Ride the Lightning (Metallica)
 +   Rock 'n' Roll (Motörhead)

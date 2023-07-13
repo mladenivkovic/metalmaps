@@ -316,19 +316,9 @@ powerslave = hex_to_rgb(
     ]
 )
 
-ride_the_lightning = hex_to_rgb(
-    [
-        "#27233D",
-        "#151040",
-        "#22206C",
-        "#423D74",
-        "#5E5E89",
-        "#869ACC",
-        "#298CF1",
-        "#82C7F6",
-        "#EFF1F7",
-    ]
-)
+rage_against_the_machine = hex_to_rgb(
+["060F0D","3B4F43","5A6757","647762","9AA48E","ABB79F","B9C4B2","DEE7D6","ECF1E0","F6F9E9"]
+        )
 
 reign_in_blood = hex_to_rgb(
     [
@@ -342,6 +332,20 @@ reign_in_blood = hex_to_rgb(
         "#BB942E",
         "#943423",
         "#BC3823",
+    ]
+)
+
+ride_the_lightning = hex_to_rgb(
+    [
+        "#27233D",
+        "#151040",
+        "#22206C",
+        "#423D74",
+        "#5E5E89",
+        "#869ACC",
+        "#298CF1",
+        "#82C7F6",
+        "#EFF1F7",
     ]
 )
 
