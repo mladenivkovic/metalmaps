@@ -113,6 +113,7 @@ Examples
 This package currently includes 30 colormaps: 
 
 
++   Animals (Pink Floyd)
 +   The Apostasy (Behemoth)
 +   Ashes of the Wake (Lamb of God)
 +   Black Sabbath (Black Sabbath)

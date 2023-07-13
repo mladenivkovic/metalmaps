@@ -3,6 +3,7 @@ Heavy Metal and Classic Rock color map collection.
 
 Includes color maps based on the following albums:
 
++   Animals (Pink Floyd)
 +   The Apostasy (Behemoth)
 +   Ashes of the Wake (Lamb of God)
 +   Black Sabbath (Black Sabbath)
@@ -62,6 +63,7 @@ from metalmaps.make_cmap import make_custom_cmap
 from metalmaps.colorcycle import set_color_cycle
 from metalmaps.__version__ import __version__
 
+animals, animals_r = make_custom_cmap("animals", colors.animals)
 apostasy, apostasy_r = make_custom_cmap("apostasy", colors.apostasy)
 ashes_of_the_wake, ashes_of_the_wake_r = make_custom_cmap(
     "ashes_of_the_wake", colors.ashes_of_the_wake

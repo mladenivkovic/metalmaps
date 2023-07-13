@@ -4,6 +4,10 @@ Colors (defined as RGB values) for the albums.
 
 from metalmaps.make_cmap import hex_to_rgb
 
+animals = hex_to_rgb(
+["2A2722","3A3736","56575D","707386","808689","AAAE94","CDCA94","DDC681","CF895D","E67B67"]
+        )
+
 apostasy = hex_to_rgb(
     [
         "#010508",
