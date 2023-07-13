@@ -110,7 +110,9 @@ overkill, overkill_r = make_custom_cmap("overkill", colors.overkill)
 paranoid, paranoid_r = make_custom_cmap("paranoid", colors.paranoid)
 painkiller, painkiller_r = make_custom_cmap("painkiller", colors.painkiller)
 powerslave, powerslave_r = make_custom_cmap("powerslave", colors.powerslave)
-rage_against_the_machine, rage_against_the_machine_r = make_custom_cmap("rage_against_the_machine", colors.rage_against_the_machine)
+rage_against_the_machine, rage_against_the_machine_r = make_custom_cmap(
+    "rage_against_the_machine", colors.rage_against_the_machine
+)
 reign_in_blood, reign_in_blood_r = make_custom_cmap(
     "reign_in_blood", colors.reign_in_blood
 )

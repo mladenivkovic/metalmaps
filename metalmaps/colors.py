@@ -5,8 +5,19 @@ Colors (defined as RGB values) for the albums.
 from metalmaps.make_cmap import hex_to_rgb
 
 animals = hex_to_rgb(
-["2A2722","3A3736","56575D","707386","808689","AAAE94","CDCA94","DDC681","CF895D","E67B67"]
-        )
+    [
+        "#2A2722",
+        "#3A3736",
+        "#56575D",
+        "#707386",
+        "#808689",
+        "#AAAE94",
+        "#CDCA94",
+        "#DDC681",
+        "#CF895D",
+        "#E67B67",
+    ]
+)
 
 apostasy = hex_to_rgb(
     [
@@ -144,8 +155,19 @@ from_mars_to_sirius = hex_to_rgb(
 )
 
 hybrid_theory = hex_to_rgb(
-["4A474E","4F4D56","5E4D54","805A61","87565F","8F8E92","9E999E","AAA3A8","CAC4C7","DFDFE4"]
-        )
+    [
+        "#4A474E",
+        "#4F4D56",
+        "#5E4D54",
+        "#805A61",
+        "#87565F",
+        "#8F8E92",
+        "#9E999E",
+        "#AAA3A8",
+        "#CAC4C7",
+        "#DFDFE4",
+    ]
+)
 
 hypnotize = hex_to_rgb(
     [
@@ -325,8 +347,19 @@ powerslave = hex_to_rgb(
 )
 
 rage_against_the_machine = hex_to_rgb(
-["060F0D","3B4F43","5A6757","647762","9AA48E","ABB79F","B9C4B2","DEE7D6","ECF1E0","F6F9E9"]
-        )
+    [
+        "#060F0D",
+        "#3B4F43",
+        "#5A6757",
+        "#647762",
+        "#9AA48E",
+        "#ABB79F",
+        "#B9C4B2",
+        "#DEE7D6",
+        "#ECF1E0",
+        "#F6F9E9",
+    ]
+)
 
 reign_in_blood = hex_to_rgb(
     [
